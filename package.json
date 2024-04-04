@@ -1,7 +1,12 @@
 {
   "name": "ecommerce2024",
-  "version": "1.0.0",
-  "description": "ecommerce rest api",
+ 
+  
+  "version": "ecommerce2024", "description": "My Ecommerce App",
+
+
+ 
+  
   "main": "server.js",
   "type": "module",
   "scripts": {
@@ -25,4 +30,8 @@
     "morgan": "^1.10.0",
     "nodemon": "^3.1.0"
   },
- 
+  "devDependencies": {
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
