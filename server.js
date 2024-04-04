@@ -30,7 +30,7 @@ res.send('<h1> Welcome to Ecommerce app </h1>');
 
 });
 //port
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 10000;
 //RUN LISTEN
 app.listen(PORT, ()=>{
 console.log(`server runing on${process.env.DEV_MODE} mode on port ${PORT}`.bgCyan.white);
